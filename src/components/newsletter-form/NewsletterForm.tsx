@@ -1,6 +1,8 @@
 import { useState, FormEvent } from "react";
 import jsonp from "jsonp";
 
+import "./NewsletterForm.scss";
+
 const MAILCHIMP_SIGNUP_URL =
 	"https://mc.us17.list-manage.com/signup-form/subscribe?u=6c795d6733fe0e6940234b0fe&id=003347e0f0";
 
@@ -44,10 +46,13 @@ function NewsletterForm() {
 				encType="multipart/form-data"
 				onSubmit={handleSubmit}
 			>
-				<div className="form-input">
-					<label htmlFor="mc-EMAIL">Email Address</label>
+				<div className="form-row">
+					<label htmlFor="mc-EMAIL" className="form-label">
+						Email Address
+					</label>
 					<input
 						type="email"
+						className="form-input"
 						name="EMAIL"
 						id="mc-EMAIL"
 						value={emailAddress}
@@ -55,11 +60,9 @@ function NewsletterForm() {
 						required
 					/>
 				</div>
-				<div className="form-input">
-					<button className="btn-submit" type="submit">
-						Join the Waitlist
-					</button>
-				</div>
+				<button className="btn-submit" type="submit">
+					Join the Waitlist
+				</button>
 			</form>
 		</div>
 	);
