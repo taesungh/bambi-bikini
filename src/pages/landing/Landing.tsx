@@ -1,7 +1,7 @@
 import { Countdown, NewsletterForm } from "components";
 import Intro from "./Intro";
 
-import "./Landing.css";
+import "./Landing.scss";
 
 function Landing() {
 	return (

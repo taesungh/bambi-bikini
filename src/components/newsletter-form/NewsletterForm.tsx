@@ -39,6 +39,7 @@ function NewsletterForm() {
 	return (
 		<div>
 			<p>Don&apos;t worry, we won&apos;t spam! Be the first to know when we launch 💖</p>
+			<hr />
 			<form
 				action="//mc.us17.list-manage.com/signup-form/subscribe?u=6c795d6733fe0e6940234b0fe&amp;id=003347e0f0"
 				acceptCharset="UTF-8"

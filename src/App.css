@@ -1,9 +1,23 @@
+.App {
+	text-align: center;
+}
+
+/* Normalize, based on Bootstrap's Reboot */
 *,
 ::after,
 ::before {
 	box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
+p {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+hr {
+	margin: 1rem 0;
+	color: inherit;
+	border: 0;
+	border-top: 1px solid;
+	opacity: 0.25;
 }
