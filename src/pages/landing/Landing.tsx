@@ -1,9 +1,11 @@
-import { NewsletterForm } from "components";
+import { Countdown, NewsletterForm } from "components";
+
+import "./Landing.css";
 
 function Landing() {
 	return (
 		<div className="landing">
-			Landing
+			<Countdown />
 			<NewsletterForm />
 		</div>
 	);
