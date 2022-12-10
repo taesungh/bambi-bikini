@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bambi-bikini/static/css/main.2eab4884.css",
+    "main.css": "/bambi-bikini/static/css/main.6166de67.css",
     "main.js": "/bambi-bikini/static/js/main.f1f010c1.js",
     "static/js/787.f42b72be.chunk.js": "/bambi-bikini/static/js/787.f42b72be.chunk.js",
     "static/media/bambi-bikini-logo.png": "/bambi-bikini/static/media/bambi-bikini-logo.be47c51ab247daddc9e1.png",
     "index.html": "/bambi-bikini/index.html",
-    "main.2eab4884.css.map": "/bambi-bikini/static/css/main.2eab4884.css.map",
+    "main.6166de67.css.map": "/bambi-bikini/static/css/main.6166de67.css.map",
     "main.f1f010c1.js.map": "/bambi-bikini/static/js/main.f1f010c1.js.map",
     "787.f42b72be.chunk.js.map": "/bambi-bikini/static/js/787.f42b72be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eab4884.css",
+    "static/css/main.6166de67.css",
     "static/js/main.f1f010c1.js"
   ]
 }
