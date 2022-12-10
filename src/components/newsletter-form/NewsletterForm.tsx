@@ -30,14 +30,16 @@ function NewsletterForm() {
 		});
 	};
 
-	if (status === "success") {
+	if (status === "success" && message !== "") {
 		return (
-			<div>Thank you for signing up. Get ready for the best bikinis ever on March 17, 2023!</div>
+			<div className="success-message">
+				Thank you for signing up! Get ready for the best bikinis ever on March 17, 2023 :)
+			</div>
 		);
 	}
 
 	return (
-		<div>
+		<div className="waitlist-signup">
 			<p>Don&apos;t worry, we won&apos;t spam! Be the first to know when we launch 💖</p>
 			<hr />
 			<form
@@ -65,6 +67,11 @@ function NewsletterForm() {
 					Join the Waitlist
 				</button>
 			</form>
+			{status === "error" && (
+				<div className="error-message">
+					<p>Sorry, there was an issue processing your request. Please try again.</p>
+				</div>
+			)}
 		</div>
 	);
 }
