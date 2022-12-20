@@ -1,13 +1,10 @@
 .landing {
-	min-height: 100vh;
+	min-height: calc(100vh - 8rem);
 	padding: 5vh 25px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-	background-color: hsl(351, 100%, 89%);
-	color: #181818;
 
 	h1 {
 		font-size: 1.8rem;
