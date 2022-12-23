@@ -17,7 +17,7 @@ function SocialIcon({ icon, label }: SocialIconProps) {
 
 function Footer() {
 	return (
-		<footer>
+		<footer className="container">
 			<p>
 				<a href={SURVEY_LINK}>
 					Take our survey for a chance to win a <strong>FREE</strong> bikini!

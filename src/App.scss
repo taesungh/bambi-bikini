@@ -1,6 +1,11 @@
 $black: #181818;
 
 .App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
 	font-family: Poppins, sans-serif;
 	/* font-size: 20px; */
 	text-align: center;
@@ -47,4 +52,11 @@ textarea {
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
+}
+
+.container {
+	padding: 0 12px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }

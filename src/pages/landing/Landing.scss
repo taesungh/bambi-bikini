@@ -1,6 +1,4 @@
 .landing {
-	min-height: calc(100vh - 8rem);
-	padding: 5vh 25px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -34,5 +32,6 @@
 .logo {
 	max-width: min(90%, 500px);
 	max-height: min(25vh, 400px);
-	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
 }

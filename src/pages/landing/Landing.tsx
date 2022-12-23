@@ -5,7 +5,7 @@ import "./Landing.scss";
 
 function Landing() {
 	return (
-		<div className="landing">
+		<div className="landing container">
 			<Intro />
 			<Countdown />
 			<NewsletterForm />
