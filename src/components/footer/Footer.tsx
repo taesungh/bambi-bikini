@@ -4,7 +4,7 @@ import icon_tiktok from "assets/icons/tiktok.svg";
 
 import "./Footer.scss";
 
-const SURVEY_LINK = "https://forms.gle/oqP2Lua5w4wrV14X6";
+// const SURVEY_LINK = "https://forms.gle/oqP2Lua5w4wrV14X6";
 
 interface SocialIconProps {
 	icon: string;
@@ -19,7 +19,7 @@ function Footer() {
 	return (
 		<footer className="container">
 			<p>
-				<a href={SURVEY_LINK}>
+				<a href="https://linktr.ee/bambibikini">
 					Take our survey for a chance to win a <strong>FREE</strong> bikini!
 				</a>
 			</p>
