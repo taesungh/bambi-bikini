@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6166de67.css",
-    "main.js": "/static/js/main.31baa4e9.js",
+    "main.css": "/static/css/main.00102677.css",
+    "main.js": "/static/js/main.b64f373d.js",
     "static/js/787.f42b72be.chunk.js": "/static/js/787.f42b72be.chunk.js",
-    "static/media/bambi-bikini-logo.png": "/static/media/bambi-bikini-logo.be47c51ab247daddc9e1.png",
+    "static/media/bambi-bikini-logo.png": "/static/media/bambi-bikini-logo.1814f307377b24b3f725.png",
+    "static/media/instagram.svg": "/static/media/instagram.811cd1a54b2484c684a84a14aacff8dd.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.b00fea2e25aea27c1aa35813d401dd35.svg",
     "index.html": "/index.html",
-    "main.6166de67.css.map": "/static/css/main.6166de67.css.map",
-    "main.31baa4e9.js.map": "/static/js/main.31baa4e9.js.map",
+    "static/media/facebook.svg": "/static/media/facebook.03933c62677547f4ed7fa930191dde06.svg",
+    "main.00102677.css.map": "/static/css/main.00102677.css.map",
+    "main.b64f373d.js.map": "/static/js/main.b64f373d.js.map",
     "787.f42b72be.chunk.js.map": "/static/js/787.f42b72be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6166de67.css",
-    "static/js/main.31baa4e9.js"
+    "static/css/main.00102677.css",
+    "static/js/main.b64f373d.js"
   ]
 }
